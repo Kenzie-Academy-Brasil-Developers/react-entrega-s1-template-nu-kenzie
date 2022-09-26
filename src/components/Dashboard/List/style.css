@@ -1,0 +1,89 @@
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.divList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttonList {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.buttonList button:hover {
+  background-color: #fd377e;
+  border: 1.4px solid #fd377e;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.ulSummary {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f8f9fa;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.greenBorder {
+  border-left: 4px solid #03b898;
+}
+
+.greyBorder {
+  border-left: 4px solid #e9ecef;
+}
+
+.divCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.divTrash {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.divTrash img:hover {
+  cursor: pointer;
+}
+
+.divTrash span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media (min-width: 760px) {
+  .sectionList {
+    width: 560px;
+    height: 627px;
+  }
+
+  .divList {
+    flex-direction: row;
+  }
+}

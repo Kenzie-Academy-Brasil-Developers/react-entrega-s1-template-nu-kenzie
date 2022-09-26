@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Nunito:wght@400;700;800&display=swap");
+
+header,
+form,
+ul,
+li,
+div,
+p,
+span,
+button,
+select,
+input {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  background: transparent;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 15px;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-pink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .mainContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 200px;
+  }
+}
