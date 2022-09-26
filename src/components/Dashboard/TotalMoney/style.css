@@ -1,0 +1,41 @@
+.sectionValorTotal {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 96px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  background-color: #ffff;
+  padding: 5px 20px;
+}
+
+.title-3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.divValorTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divValorTotal span {
+  display: flex;
+  align-items: center;
+  color: #fd377e;
+}
+
+.sectionValorTotal p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #343a40;
+}
+
+@media (min-width: 760px) {
+  .sectionValorTotal {
+    width: 363px;
+  }
+}
